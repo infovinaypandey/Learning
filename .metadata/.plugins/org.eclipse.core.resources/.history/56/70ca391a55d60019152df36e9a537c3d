@@ -1,0 +1,25 @@
+package assignment;
+
+public class SecondLargestNumber {
+
+	public void getSecondHigestNumber() {
+		int secondHigestNumber = 3;
+		int a[] = { 2, 44, 7, 4, 2, 5, 7, 5, 55, 4, 4433 };
+
+		for (int i = 0; i < a.length - 1; i++) {
+			for (int j = i + 1; j < a.length - 1; j++) {
+				if (a[i] > a[j]) {
+					int temp = a[i];
+					a[i] = a[j];
+					a[j] = temp;
+				}
+			}
+		}
+
+	}
+
+	public static void main(String[] args) {
+		SecondLargestNumber secNum = new SecondLargestNumber();
+		secNum.getSecondHigestNumber();
+	}
+}

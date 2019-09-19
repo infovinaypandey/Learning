@@ -1,0 +1,23 @@
+package assignment;
+
+public class BiggestNumber {
+
+	public void getBiggestNumber() {
+		int a[] = { 99, 4, 8, 10, 11, 55, 88, 3, 6 , 101};
+
+		int BiggestNumber = a[0];
+		for (int i = 1; i < a.length; i++) {
+			if (BiggestNumber < a[i]) {
+				
+				BiggestNumber = a[i];
+			}
+		}
+		
+		System.out.println(BiggestNumber);
+	}
+	
+	public static void main(String[] args) {
+		BiggestNumber bigValue = new BiggestNumber();
+		bigValue.getBiggestNumber();
+	}
+}

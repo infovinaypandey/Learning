@@ -1,0 +1,21 @@
+package assignment;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class FirstClass {
+
+	public void getWebDriver() {
+		
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://www.seleniumhq.org/");
+		driver.close();
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FirstClass objDriver = new FirstClass();
+		objDriver.getWebDriver();
+	}
+
+}

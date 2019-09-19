@@ -1,0 +1,8 @@
+package assignment;
+
+public class BiggestNumber {
+
+	public void getBiggestNumber() {
+
+	}
+}

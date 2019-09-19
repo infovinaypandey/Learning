@@ -1,0 +1,14 @@
+package assignment;
+
+public class SecondLargestNumber {
+	public void getSecondHigestNumber() {
+		int secondHigestNumber = 2;
+
+		int a[] = { 2, 44, 7, 4, 2, 5, 7, 5, 55, 4, 4433 };
+		
+		for(int i=0; i<a.length-1; i++) {
+			
+		}
+
+	}
+}
